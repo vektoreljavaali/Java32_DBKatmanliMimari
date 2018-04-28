@@ -13,7 +13,6 @@ import java.util.List;
  */
 public interface ICRUD<T> {
     
-       
     public boolean kaydet(T t);
     
     public boolean duzenle(T t);
